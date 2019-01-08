@@ -1,6 +1,7 @@
 # tpcc-mysql
 mysql基准测试
-一、安装
+
+```一、安装
 cd tpcc-mysql/src
 
 make
@@ -49,3 +50,4 @@ tpcc_load用法如下：
 [root tpcc-mysql]$ ./tpcc_start -h127.0.0.1 -P3308 -d tpcctest -u root -p 123456 -w 10 -c 10 -r 120 -l 120 
 真实测试场景中，建议预热时间不小于5分钟，持续压测时长不小于30分钟，否则测试数据可能不具参考意义。
 
+```
