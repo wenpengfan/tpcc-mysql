@@ -1,7 +1,8 @@
 # tpcc-mysql
 mysql基准测试
 
-```一、安装
+```
+一、安装
 cd tpcc-mysql/src
 
 make
